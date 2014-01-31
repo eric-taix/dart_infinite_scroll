@@ -1,0 +1,93 @@
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+    margin:5em;
+}
+
+h1, p {
+  color: #333;
+}
+
+div#loading-view {
+
+}
+#sample_container_id {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+span {
+  line-height: 30px;
+}
+
+div#loading-view {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.wrapper {
+  margin:0 auto;
+  width:34em;
+  height:2em;
+}
+
+.wrapper span {
+  float:left;
+  text-align:center;
+  margin:0 5em; 
+  animation:load 1.337s infinite ease-out reverse;
+}
+
+.wrapper span:nth-child(2) {
+  animation:load .5s infinite linear; 
+}
+
+.wrapper span:nth-child(3) {
+  animation:load 1.25s infinite steps(18, end) forwards; 
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0) scale(1, 1);
+    color:rgba(0, 0, 0, .5);
+  }
+  10% { color:rgba(0, 120, 0, .5); }
+  20% { color:rgba(0, 120, 120, .5); }
+  30% { color:rgba(120, 120, 0, .5); }
+  40% { color:rgba(0, 0, 120, .5); }
+  50% {
+    transform: rotate(180deg) scale(1.85, 1.85);
+    color:rgba(120, 0, 0, .5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1, 1); 
+    color:rgba(0, 0, 0, .5);
+  }
+}
+
+@keyframes devil {
+  0% {
+    transform: scale(-1.85, 1.85); 
+  }
+  50% {
+    transform: scale(1.85, -1.85);
+  }
+  100% {
+    transform: scale(-1.85, 1.85); 
+  }
+}

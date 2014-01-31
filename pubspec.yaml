@@ -1,0 +1,7 @@
+name: dart_infinite_scroll
+description: A sample Polymer application
+dependencies:
+    polymer: any
+transformers:
+- polymer:
+    entry_points: web/dart_infinite_scroll.html

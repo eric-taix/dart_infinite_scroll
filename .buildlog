@@ -1,0 +1,920 @@
+---
+build.dart --machine --full
+
+build.dart finished [1575 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [2600 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.css
+
+build.dart finished [988 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1004 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":32,"charStart":1112,"charEnd":1123}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":34,"charStart":1192,"charEnd":1210}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":15,"charStart":308,"charEnd":313}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":32,"charStart":1112,"charEnd":1123}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":34,"charStart":1192,"charEnd":1210}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":15,"charStart":308,"charEnd":313}}]
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":35,"charStart":1156,"charEnd":1167}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":37,"charStart":1236,"charEnd":1254}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":18,"charStart":352,"charEnd":357}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":35,"charStart":1156,"charEnd":1167}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":37,"charStart":1236,"charEnd":1254}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":18,"charStart":352,"charEnd":357}}]
+build.dart finished [1014 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":36,"charStart":1178,"charEnd":1189}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":38,"charStart":1258,"charEnd":1276}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":19,"charStart":374,"charEnd":379}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":36,"charStart":1178,"charEnd":1189}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":38,"charStart":1258,"charEnd":1276}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":19,"charStart":374,"charEnd":379}}]
+build.dart finished [1120 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":36,"charStart":1179,"charEnd":1190}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":38,"charStart":1259,"charEnd":1277}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":19,"charStart":375,"charEnd":380}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":36,"charStart":1179,"charEnd":1190}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":38,"charStart":1259,"charEnd":1277}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":19,"charStart":375,"charEnd":380}}]
+build.dart finished [1000 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":37,"charStart":1201,"charEnd":1212}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":39,"charStart":1281,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":20,"charStart":397,"charEnd":402}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":37,"charStart":1201,"charEnd":1212}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":39,"charStart":1281,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":20,"charStart":397,"charEnd":402}}]
+build.dart finished [1021 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":36,"charStart":1174,"charEnd":1185}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":38,"charStart":1254,"charEnd":1272}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":19,"charStart":370,"charEnd":375}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":36,"charStart":1174,"charEnd":1185}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":38,"charStart":1254,"charEnd":1272}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":19,"charStart":370,"charEnd":375}}]
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":39,"charStart":1220,"charEnd":1231}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":41,"charStart":1300,"charEnd":1318}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":22,"charStart":416,"charEnd":421}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":39,"charStart":1220,"charEnd":1231}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":41,"charStart":1300,"charEnd":1318}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":22,"charStart":416,"charEnd":421}}]
+build.dart finished [1030 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":39,"charStart":1220,"charEnd":1231}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":41,"charStart":1300,"charEnd":1318}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":22,"charStart":416,"charEnd":421}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":39,"charStart":1220,"charEnd":1231}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":41,"charStart":1300,"charEnd":1318}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":22,"charStart":416,"charEnd":421}}]
+build.dart finished [1373 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1246,"charEnd":1257}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1326,"charEnd":1344}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":442,"charEnd":447}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1246,"charEnd":1257}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1326,"charEnd":1344}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":442,"charEnd":447}}]
+build.dart finished [999 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":41,"charStart":1255,"charEnd":1266}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":43,"charStart":1335,"charEnd":1353}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":24,"charStart":451,"charEnd":456}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":41,"charStart":1255,"charEnd":1266}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":43,"charStart":1335,"charEnd":1353}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":24,"charStart":451,"charEnd":456}}]
+build.dart finished [1011 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1246,"charEnd":1257}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1326,"charEnd":1344}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":442,"charEnd":447}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1246,"charEnd":1257}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1326,"charEnd":1344}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":442,"charEnd":447}}]
+build.dart finished [993 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1246,"charEnd":1257}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1326,"charEnd":1344}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":442,"charEnd":447}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1246,"charEnd":1257}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1326,"charEnd":1344}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":442,"charEnd":447}}]
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1245,"charEnd":1256}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1325,"charEnd":1343}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":441,"charEnd":446}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1245,"charEnd":1256}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1325,"charEnd":1343}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":441,"charEnd":446}}]
+build.dart finished [1166 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1243,"charEnd":1254}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1323,"charEnd":1341}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":439,"charEnd":444}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1243,"charEnd":1254}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1323,"charEnd":1341}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":439,"charEnd":444}}]
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":39,"charStart":1221,"charEnd":1232}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":41,"charStart":1301,"charEnd":1319}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":22,"charStart":417,"charEnd":422}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":39,"charStart":1221,"charEnd":1232}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":41,"charStart":1301,"charEnd":1319}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":22,"charStart":417,"charEnd":422}}]
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1243,"charEnd":1254}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1323,"charEnd":1341}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":439,"charEnd":444}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":40,"charStart":1243,"charEnd":1254}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":42,"charStart":1323,"charEnd":1341}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":23,"charStart":439,"charEnd":444}}]
+build.dart finished [1003 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":41,"charStart":1264,"charEnd":1275}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":43,"charStart":1344,"charEnd":1362}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":24,"charStart":460,"charEnd":465}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":41,"charStart":1264,"charEnd":1275}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":43,"charStart":1344,"charEnd":1362}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":24,"charStart":460,"charEnd":465}}]
+build.dart finished [991 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1189 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1015 ms]
+
+---
+build.dart --machine --changed=web/infinite-scroll.dart
+
+build.dart finished [1049 ms]
+
+---
+build.dart --machine --changed=web/infinite-scroll.dart
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web/infinite-scroll.dart
+
+build.dart finished [992 ms]
+
+---
+build.dart --machine --changed=web/infinite-scroll.dart
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=web/infinite-scroll.dart
+
+build.dart finished [1025 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart --removed=web/infinite-scroll.dart
+
+build.dart finished [1044 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [984 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1002 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+[{"method":"warning","params":{"file":"web/dart_infinite_scroll.html","message":"definition for Polymer element with tag name \"jared-infinitescroll\" not found.","line":21,"charStart":589,"charEnd":621}}]
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+[{"method":"warning","params":{"file":"web/dart_infinite_scroll.html","message":"definition for Polymer element with tag name \"jared-infinitescroll\" not found.","line":21,"charStart":589,"charEnd":611}}]
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [991 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [1044 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1276 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1003 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.css
+
+build.dart finished [999 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [997 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [1118 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart --removed=web/clickcounter.html
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1177 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1088 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [984 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/infinite_scroll.html","message":"Unexpected character after attribute value.","line":1,"charStart":0,"charEnd":45}}]
+[{"method":"warning","params":{"file":"web/infinite_scroll.html","message":"Invalid character in attribute name","line":1,"charStart":0,"charEnd":45}}]
+[{"method":"warning","params":{"file":"web/infinite_scroll.html","message":"Unexpected character after attribute value.","line":1,"charStart":0,"charEnd":45}}]
+[{"method":"warning","params":{"file":"web/infinite_scroll.html","message":"Invalid character in attribute name","line":1,"charStart":0,"charEnd":45}}]
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [987 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1086 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1020 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1000 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1008 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1274 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1471 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [995 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1041 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web/dart_infinite_scroll.html
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=web/index.html --removed=web/dart_infinite_scroll.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=web/index.css --removed=web/dart_infinite_scroll.css
+
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=web/index.dart
+
+build.dart finished [1042 ms]
+
+---
+build.dart --machine --changed=web/index.dart
+
+build.dart finished [1018 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1025 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=web/index.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Event handler \"onload\" will be interpreted as an inline JavaScript event handler. Use the form on-event-name=\"handlerName\" if you want a Dart handler that will automatically update the UI based on model changes.","line":18,"charStart":540,"charEnd":567}}]
+build.dart finished [988 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=web/index.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1037 ms]
+
+---
+build.dart --machine --changed=web/index.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1035 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":71,"charStart":2360,"charEnd":2392}}]
+build.dart finished [992 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":572}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":71,"charStart":2364,"charEnd":2396}}]
+build.dart finished [1004 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":572}}]
+build.dart finished [1012 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=web/index.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1068 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [997 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1016 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1156 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":540,"charEnd":568}}]
+build.dart finished [1059 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1010 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1014 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1267 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1055 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1183 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1011 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [995 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1013 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1002 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1084 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1020 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1087 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1096 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1012 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1074 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1010 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1118 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [3089 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [996 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [960 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [953 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [997 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [1133 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1020 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1374 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1043 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [999 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1033 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1437 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [996 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.dart
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1132 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web/infinite_scroll.html
+
+build.dart finished [1010 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1033 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1046 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1016 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1051 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1001 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1053 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1183 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1080 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1035 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1057 ms]
+
+---
+build.dart --machine --changed=web/index.css
+
+build.dart finished [1026 ms]
+
