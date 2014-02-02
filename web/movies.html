@@ -1,0 +1,25 @@
+<link rel="import" href="scroller.html"> 
+<link rel="import" href="card.html">    
+<polymer-element name="jared-movies">
+  <template>
+    <style>
+    span {
+      line-height: 30px;
+      font-size: 16px;
+    } 
+         
+    </style>
+      <x-scroller loading="{{loading}}" hasMore="{{hasMore}}" on-load="{{loadNextLines}}" distance="500" text="Loading lines...">
+        <p>500 lines will be loaded (20 lines per page)</p>
+        <div id="data">
+          <template repeat="{{ movie in movies }}">
+            <x-card>
+              <p>{{ movie }}</p>
+            </x-card>
+          </template>  
+        </div>
+      </x-scroller> 
+  </template>
+  <script type="application/dart" src="movies.dart"></script>
+</polymer-element>
+

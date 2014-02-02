@@ -1,7 +1,9 @@
-name: dart_infinite_scroll
-description: A sample Polymer application
+name: scroller
+author: Eric Taix
+version: 0.1.0
+description: An infinite scroller
 dependencies:
-    polymer: any
+  polymer: any
 transformers:
 - polymer:
     entry_points: web/dart_infinite_scroll.html
