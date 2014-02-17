@@ -1,5 +1,6 @@
 import 'dart:html';
 import 'dart:async';
+import 'dart:math';
 
 import 'package:polymer/polymer.dart';
 import 'package:polymer_expressions/filter.dart';
@@ -25,10 +26,11 @@ class Application extends PolymerElement {
   var asInt  = new StringToInt();
   
   Timer _loadingMockTimer;
+  var rnd = new Random();
   _addNextItem() {
     loading = true;
     if (_loadingMockTimer != null) _loadingMockTimer.cancel();
-    _loadingMockTimer = new Timer(new Duration(milliseconds: 4000), () {
+    _loadingMockTimer = new Timer(new Duration(milliseconds: rnd.nextInt(1200) + 300), () {
       lines.addAll(new List.generate(PAGE_SIZE, (i) => 'Line #${lines.length + i + 1}')); 
       loading = false;
       if (lines.length >= 500) {

@@ -918,3 +918,52 @@ build.dart --machine --changed=web/index.css
 
 build.dart finished [1026 ms]
 
+---
+build.dart --machine --clean
+Unable to open file: /Users/eric/dart/scroller/packages/polymer/builder.dart'file:///Users/eric/dart/scroller/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [88 ms]
+
+---
+build.dart --machine --full
+Unable to open file: /Users/eric/dart/scroller/packages/polymer/builder.dart'file:///Users/eric/dart/scroller/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [78 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1977 ms]
+
+---
+build.dart --machine --removed=build/app.css --removed=build/img/bar.png --removed=build/img/eric.jpg --removed...
+
+build.dart finished [1217 ms]
+
+---
+build.dart --machine --changed=build/app.css --changed=build/img/bar.png --changed=build/img/eric.jpg --changed...
+
+build.dart finished [1168 ms]
+
+---
+build.dart --machine --changed=web/app.dart
+
+build.dart finished [1056 ms]
+
+---
+build.dart --machine --changed=web/app.dart
+
+build.dart finished [1229 ms]
+
+---
+build.dart --machine --removed=build/app.css --removed=build/img/bar.png --removed=build/img/eric.jpg --removed...
+
+build.dart finished [1217 ms]
+
+---
+build.dart --machine --changed=build/app.css --changed=build/img/bar.png --changed=build/img/eric.jpg --changed...
+
+build.dart finished [1202 ms]
+
