@@ -7,27 +7,16 @@
     <title>Sample app</title>
     <link rel="stylesheet" href="index.css">
     
-    <link rel="import" href="movies.html">  
+    <link rel="import" href="app.html">  
     <script type="application/dart">export 'index.dart';</script>
     <script src="packages/browser/dart.js"></script>
   </head>
   <body>
-    <img class="logo" src="./img/logo.jpg" width="120px">
+    <img class="logo" src="./img/logo2.png" width="120px">
     <h1>Dart infinite scroller demo</h1>
-    <h5>https://github.com/eric-taix/dart_infinite_scroll</h5>
-    <div id="sample_container_id">
-    <div id="cloader">
-      <div>
-        <div class="circle1"></div>
-        <div class="circle"></div>
-      </div>
-      <span>
-        Loading...
-      </span>
-    </div>
-    <jared-movies>
-    </jared-movies>        
-       
+    <h5><a target="_blank" href="https://github.com/eric-taix/dart_infinite_scroll">https://github.com/eric-taix/dart_infinite_scroll</a></h5>
+    <div id="container">
+      <x-app></x-app>        
     </div>
   </body>
 </html>

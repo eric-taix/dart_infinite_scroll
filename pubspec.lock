@@ -52,7 +52,7 @@ packages:
   polymer:
     description: polymer
     source: hosted
-    version: "0.9.4"
+    version: "0.9.5"
   polymer_expressions:
     description: polymer_expressions
     source: hosted
@@ -76,7 +76,7 @@ packages:
   unmodifiable_collection:
     description: unmodifiable_collection
     source: hosted
-    version: "0.9.2"
+    version: "0.9.2+1"
   utf:
     description: utf
     source: hosted

@@ -2,23 +2,69 @@
   <template>
     <style>
     @host {
-
     }
-    .container {
-    width: 800px;
-    margin: auto;
+    #container {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
       padding: 5px 30px 5px 30px;
+      position: relative;
     }
     
-    .content {
-      width: 100%;
+    #content {
       border: 1px solid gray;
-      background-color: white;
       box-shadow: 4px 4px 8px #aaa;
+ /*     -webkit-animation: come-in 4s infinite linear;
+      -moz-animation: come-in 0.8s infinite linear;
+      -ms-animation: come-in 0.8s infinite linear;
+      -o-animation: come-in 0.8s infinite linear;
+      animation: come-in 0.8s infinite linear; */
+      background: white;
+      min-height: 80px;
     }
+    
+/*    #content:hover {
+
+      -webkit-animation: come-in 4s infinite linear;
+      -moz-animation: come-in 0.8s infinite linear;
+      -ms-animation: come-in 0.8s infinite linear;
+      -o-animation: come-in 0.8s infinite linear;
+      animation: come-in 0.8s infinite linear;
+    }
+    .come-in:hover {
+      -webkit-animation: come-in 4s ease forwards;
+      -moz-animation: come-in 0.8s ease forwards;
+      -ms-animation: come-in 0.8s ease forwards;
+      -o-animation: come-in 0.8s ease forwards;
+      animation: come-in 0.8s ease forwards;                        
+    }
+    .come-in:nth-child(odd) {
+      animation-duration: 0.6s; 
+    }
+    
+    @-webkit-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }
+    @-moz-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }
+    @-ms-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }}
+    }    
+    @-o-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }
+    @keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }         */
     </style>
-    <div class="container">
-      <div class="content">
+    <div id="container">
+      <div id="content">
         <content></content>
       </div>
     </div>

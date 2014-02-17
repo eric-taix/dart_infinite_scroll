@@ -3,23 +3,21 @@ import 'dart:async';
 
 import 'package:polymer/polymer.dart';
 
-
 @CustomTag('x-scroller')
-class InfiniteScroll extends PolymerElement {
+class Scroller extends PolymerElement {
   
   Element _scroller;
   Element _loader;
-  @published String text = "Loading...";
-  @published String image = "./img/loading.gif";
+  Element _dataView;
   
   /// The distance in pixel before the next load event is dispatched
-  @published double distance = 0.0;
+  @published int distance = 0;
   /// True if the parent has more items to displayed. If false the load event would be dispatched anymore
   @published bool hasMore = false;
   /// When true the loader is visible otherwise it's hidden
   @published bool loading = false;
   
-  InfiniteScroll.created() : super.created();
+  Scroller.created() : super.created();
   
   void enteredView() {
     super.enteredView();
@@ -29,6 +27,7 @@ class InfiniteScroll extends PolymerElement {
       _loader.style.visibility = 'hidden';
     }
     _scroller.onScroll.listen(_onScroll);  
+    _dataView = children.firstWhere((e) => e.id == 'data-view');
   }
   
   loadingChanged(bool oldValue) {
@@ -42,10 +41,17 @@ class InfiniteScroll extends PolymerElement {
     // Dispatch load event when at the desired distance and if it has more items 
     // and prevent dispatching the event if it's currently loading
     if (dist <= distance && hasMore && !loading) {
-      //print('==> LD:${loadDistance} D:${distance}');
       dispatchEvent(new CustomEvent('load'));
     }
-    //print('DIST=$dist CH:${_scroller.clientHeight} OH:${_scroller.offsetHeight} ST:${_scroller.scrollTop} SH:${_scroller.scrollHeight}');
+    _dataView.children.where((e) => e is ScrollAware).forEach(_fireScroll);
   }
+  
+  _fireScroll(sa) => sa.scrolling(_scroller.scrollTop, _scroller.scrollTop+_scroller.clientHeight);
 }
 
+
+abstract class ScrollAware {
+  
+  scrolling(int scrollTop, int scrollBottom);
+
+}

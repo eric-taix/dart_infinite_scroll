@@ -1,0 +1,69 @@
+<link rel="import" href="scroller.html"> 
+<link rel="import" href="card.html">    
+<polymer-element name="x-app">
+  <template>
+    <link rel="stylesheet" href="app.css">
+    <div class="menu">
+      <div class="section">Action</div>
+      <div class="item" on-click="{{ resetItems }}">Reset items</div>
+      <div>
+      <div class="section">Loading view</div>
+        <div class="item item-selected" on-click="{{ changeLoadingView }}" data-loadingview="progressbar">Progress bar</div>      
+        <div class="item" on-click="{{ changeLoadingView }}" data-loadingview="coloredballs">Colored balls</div>  
+        <div class="item" on-click="{{ changeLoadingView }}" data-loadingview="crazycircles">Crazy circles</div>  
+        <div class="item" on-click="{{ changeLoadingView }}" data-loadingview="all">All at the same time</div>   
+      </div>     
+      <div class="section">Parameters</div>
+      <div class="item">Load distance&nbsp;<input type="text" value="{{ distance | asInt }}"></div>  
+      <div class="section">About</div>  
+      <div class="item">
+        <div class="avatar"><img src="img/eric.jpg"><span>Eric Taix</span></div>
+        <br>
+        This is an experiment (it still has some issues on FireFox and Safari) of an infinite scroller with Dart and Polymer.<br>
+        <br>
+        This demo provides 3 loading views: click on the corresponding menu to change the view used when new lines are loaded.
+        <br><br>
+        You like this application ?<br>
+        Say hello on twitter : <a target="_blank" href="https://twitter.com/etaix">@etaix</a>
+      </div>  
+    </div> 
+    <div id="content">
+      <x-scroller loading="{{loading}}" hasMore="{{hasMore}}" on-load="{{loadNextLines}}" distance="{{ distance }}">
+      
+        <div id="data-view">
+          <p>500 lines will be loaded (20 lines per page)</p>
+          <template repeat="{{ line in lines }}">
+            <x-card>
+              <p>{{ line }}</p>
+            </x-card>
+          </template>  
+        </div>
+  
+        <div id="loading-view">
+          <template if="{{ loadingview == 'progressbar' || loadingview == 'all' }}">    
+              <div id="bar-loading"></div>
+          </template>
+          <template if="{{ loadingview == 'coloredballs' || loadingview == 'all' }}">
+              <div id="google-loading">
+                <img src="img/loading.gif">Chargement...
+              </div>
+          </template>
+          <template if="{{ loadingview == 'crazycircles' || loadingview == 'all' }}">
+              <div id="cool-loading">
+                <div>
+                  <div class="circle1"></div>
+                  <div class="circle"></div>
+                </div>
+                <span>
+                  Loading...
+                </span> 
+              </div>
+          </template>
+        </div>
+      </x-scroller>
+      
+    </div>
+    </template>
+  <script type="application/dart" src="app.dart"></script>
+</polymer-element>
+
