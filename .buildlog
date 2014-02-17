@@ -967,3 +967,13 @@ build.dart --machine --changed=build/app.css --changed=build/img/bar.png --chang
 
 build.dart finished [1202 ms]
 
+---
+build.dart --machine --changed=web/app.dart
+
+build.dart finished [1523 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1104 ms]
+
