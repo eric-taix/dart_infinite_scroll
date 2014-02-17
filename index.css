@@ -1,0 +1,41 @@
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,300,100);
+
+body {
+  background-color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: white;
+  margin: 10px;
+}
+
+h5 a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+img.logo {
+  float: left;
+  vertical-align: middle;
+}
+
+
+#container {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: silver;
+}

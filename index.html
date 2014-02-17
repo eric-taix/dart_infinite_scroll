@@ -1,1 +1,186 @@
-My guthub Page
+<!DOCTYPE html><html><head><script src="packages/shadow_dom/shadow_dom.debug.js"></script>
+<script src="packages/custom_element/custom-elements.debug.js"></script>
+<script src="packages/browser/interop.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="index.css">
+    
+      
+    <script src="index.html_bootstrap.dart.js"></script>
+    
+  </head>
+  <body><polymer-element name="x-scroller">
+  <template>
+    <style>
+    @host: {
+      height: 100%;
+    }
+    div#scroller {
+      height: 100%;
+      overflow: auto;
+    }
+    </style>
+    <div id="scroller">
+      <div id="data">
+        <content select="#data-view"></content>
+      </div>
+      <div id="loader">
+        <content select="#loading-view"></content>
+      </div>
+    </div>
+    
+  </template>
+  
+</polymer-element>
+
+<polymer-element name="x-card">
+  <template>
+    <style>
+    @host {
+    }
+    #container {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5px 30px 5px 30px;
+      position: relative;
+    }
+    
+    #content {
+      border: 1px solid gray;
+      box-shadow: 4px 4px 8px #aaa;
+ /*     -webkit-animation: come-in 4s infinite linear;
+      -moz-animation: come-in 0.8s infinite linear;
+      -ms-animation: come-in 0.8s infinite linear;
+      -o-animation: come-in 0.8s infinite linear;
+      animation: come-in 0.8s infinite linear; */
+      background: white;
+      min-height: 80px;
+    }
+    
+/*    #content:hover {
+
+      -webkit-animation: come-in 4s infinite linear;
+      -moz-animation: come-in 0.8s infinite linear;
+      -ms-animation: come-in 0.8s infinite linear;
+      -o-animation: come-in 0.8s infinite linear;
+      animation: come-in 0.8s infinite linear;
+    }
+    .come-in:hover {
+      -webkit-animation: come-in 4s ease forwards;
+      -moz-animation: come-in 0.8s ease forwards;
+      -ms-animation: come-in 0.8s ease forwards;
+      -o-animation: come-in 0.8s ease forwards;
+      animation: come-in 0.8s ease forwards;                        
+    }
+    .come-in:nth-child(odd) {
+      animation-duration: 0.6s; 
+    }
+    
+    @-webkit-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }
+    @-moz-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }
+    @-ms-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }}
+    }    
+    @-o-@keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }
+    @keyframes come-in {
+      from { background-color: red; }
+      to { background-color: yellow; }
+    }         */
+    </style>
+    <div id="container">
+      <div id="content">
+        <content></content>
+      </div>
+    </div>
+  </template>
+  
+</polymer-element><polymer-element name="x-app">
+  <template>
+    <link rel="stylesheet" href="app.css">
+    <div class="menu">
+      <div class="section">Action</div>
+      <div class="item" on-click="{{ resetItems }}">Reset items</div>
+      <div>
+      <div class="section">Loading view</div>
+        <div class="item item-selected" on-click="{{ changeLoadingView }}" data-loadingview="progressbar">Progress bar</div>      
+        <div class="item" on-click="{{ changeLoadingView }}" data-loadingview="coloredballs">Colored balls</div>  
+        <div class="item" on-click="{{ changeLoadingView }}" data-loadingview="crazycircles">Crazy circles</div>  
+        <div class="item" on-click="{{ changeLoadingView }}" data-loadingview="all">All at the same time</div>   
+      </div>     
+      <div class="section">Parameters</div>
+      <div class="item">Load distance&nbsp;<input type="text" value="{{ distance | asInt }}"></div>  
+      <div class="section">About</div>  
+      <div class="item">
+        <div class="avatar"><img src="img/eric.jpg"><span>Eric Taix</span></div>
+        <br>
+        This is an experiment (it still has some issues on FireFox and Safari) of an infinite scroller with Dart and Polymer.<br>
+        <br>
+        This demo provides 3 loading views: click on the corresponding menu to change the view used when new lines are loaded.
+        <br><br>
+        You like this application ?<br>
+        Say hello on twitter : <a target="_blank" href="https://twitter.com/etaix">@etaix</a>
+      </div>  
+    </div> 
+    <div id="content">
+      <x-scroller loading="{{loading}}" hasmore="{{hasMore}}" on-load="{{loadNextLines}}" distance="{{ distance }}">
+      
+        <div id="data-view">
+          <p>500 lines will be loaded (20 lines per page)</p>
+          <template repeat="{{ line in lines }}">
+            <x-card>
+              <p>{{ line }}</p>
+            </x-card>
+          </template>  
+        </div>
+  
+        <div id="loading-view">
+          <template if="{{ loadingview == 'progressbar' || loadingview == 'all' }}">    
+              <div id="bar-loading"></div>
+          </template>
+          <template if="{{ loadingview == 'coloredballs' || loadingview == 'all' }}">
+              <div id="google-loading">
+                <img src="img/loading.gif">Chargement...
+              </div>
+          </template>
+          <template if="{{ loadingview == 'crazycircles' || loadingview == 'all' }}">
+              <div id="cool-loading">
+                <div>
+                  <div class="circle1"></div>
+                  <div class="circle"></div>
+                </div>
+                <span>
+                  Loading...
+                </span> 
+              </div>
+          </template>
+        </div>
+      </x-scroller>
+      
+    </div>
+    </template>
+  
+</polymer-element>
+
+
+    <img class="logo" src="./img/logo2.png" width="120px">
+    <h1>Dart infinite scroller demo</h1>
+    <h5><a target="_blank" href="https://github.com/eric-taix/dart_infinite_scroll">https://github.com/eric-taix/dart_infinite_scroll</a></h5>
+    <div id="container">
+      <x-app></x-app>        
+    </div>
+  
+
+</body></html>
